@@ -17,6 +17,7 @@ const getUsers = (request, response) => {
     response.status(200).json(results.rows)
   })
 }
+
 app.get('/users', getUsers);
 
 const PORT = 3000;
