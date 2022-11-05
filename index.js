@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 const getUsers = (request, response) => {
   pool.query('SELECT * FROM sample', (error, results) => {
     if (error) {
-      throw error
+      console.log("error", error) ;
     }
     response.status(200).json(results.rows)
   })
