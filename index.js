@@ -22,7 +22,7 @@ app.get('/users', getUsers);
 
 // console.log("pool", pool)
 // const port = 3800;
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () =>{
     console.log(`Server listening at port ${PORT}`)
 })
