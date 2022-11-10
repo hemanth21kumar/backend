@@ -1,10 +1,10 @@
 const pg = require('pg');
 let client = new pg.Client({
     user: 'postgres',
-    host: 'localhost',
+    host: 'database-1.cvtuvldhfhgg.us-east-1.rds.amazonaws.com',
     database: 'postgres',
-    password: 'admin',
-    // port: 5432,
+    password: 'frisles.india',
+    port: 5432,
 });
 
 client.connect((err) =>{
