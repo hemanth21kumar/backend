@@ -12,7 +12,7 @@ client.connect((err) =>{
         console.log("err.message", err.message);
         return;
     }
-    console.log("database connected")
+    console.log("database connected frisles")
 });
 
 module.exports = client;
