@@ -3,8 +3,8 @@ let client = new pg.Client({
     user: 'postgres',
     host: 'localhost',
     database: 'postgres',
-    password: 'postgres',
-    port: 5432,
+    password: 'admin',
+    // port: 5432,
 });
 
 client.connect((err) =>{
