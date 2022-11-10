@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: "Hello, world" });
+  res.json({ message: "Hello, world test" });
 });
 
 const getUsers = (request, response) => {
